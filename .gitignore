@@ -1,0 +1,42 @@
+# Visual Studio
+.vs/
+x64/
+x86/
+Debug/
+Release/
+*.user
+*.suo
+*.ipch
+*.pdb
+*.obj
+*.ilk
+*.exe
+*.log
+*.tlog
+*.idb
+*.vcxproj.filters.user
+
+# Python / Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+venv/
+.venv/
+
+# Training data and large artifacts
+*.pgn
+*.pgn.zst
+*.npy
+*.npz
+*.pt
+*.pth
+data/
+stockfish*/
+
+# Third-party libs (document how to get them in README instead)
+SFML-*/
+onnxruntime*/
+
+# OS
+.DS_Store
+Thumbs.db
